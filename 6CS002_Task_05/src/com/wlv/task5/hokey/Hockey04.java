@@ -2,6 +2,10 @@ package com.wlv.task5.hokey;
 
 import java.util.*;
 
+/*Stream<T>#filter(Predicate<T> predicate) is used for, you guessed it, filtering elements
+*If the predicate returns true, the elements will travel further down the stream:
+**/
+
 public class Hockey04 {
   public static void main(String[] args) {
 	  List<clubHockey> table = Arrays.asList(
