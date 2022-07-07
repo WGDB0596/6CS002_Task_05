@@ -55,8 +55,8 @@ public class clubHockey implements Comparable<clubHockey> {
 	  }
 
 	  public String toString() {
-	    return String.format("%-3d%-20s%10d%10d%10d", team_id, gameId, opposingTeam, shotsOnGoalFor,
-	    		blockedShotAttemptsFor, shotAttemptsFor,playoffGame);
+	    return String.format("%-3d%-13d%-15s%10d%10d%10d%10d", team_id, gameId, opposingTeam, shotsOnGoalFor,
+	    		blockedShotAttemptsFor, shotAttemptsFor,savedShotsOnGoalFor);
 	  }
 
 	  public int getTeam_id() {
@@ -202,7 +202,7 @@ public class clubHockey implements Comparable<clubHockey> {
 
 	  
 	  public int compareTo(clubHockey c) {
-	    return ((Integer) playoffGame).compareTo(c.playoffGame);
+	    return ((Integer) savedShotsOnGoalFor).compareTo(c.savedShotsOnGoalFor);
 	  }
 	}
 
