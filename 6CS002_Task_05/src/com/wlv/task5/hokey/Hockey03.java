@@ -1,5 +1,6 @@
 package com.wlv.task5.hokey;
 
+//Mapping function returns one of the related value types
 import java.util.Arrays;
 import java.util.List;
 import java.util.OptionalInt;
@@ -27,5 +28,4 @@ public class Hockey03 {
       System.out.println("min failed");
     }
   }
-
 }
