@@ -6,7 +6,7 @@ public class Experiment05 {
 	
 	public static void main(String[] args) {
 		
-		String[] n1= {"Kevan", "John", "Matthew"};
+		String[] n1= {"Science", "Mathematics", "History"};
 		
 		List<String>n2=Arrays.asList(n1);
 		

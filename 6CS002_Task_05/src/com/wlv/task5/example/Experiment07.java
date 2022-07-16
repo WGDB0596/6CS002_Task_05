@@ -3,7 +3,7 @@ import java.util.*;
 import java.util.function.Consumer; 
 public class Experiment07 { 
 public void run() { 
-String[] n1={ "Kevan", "John", "matthew"};
+String[] n1={"Science", "Mathematics", "History"};
 
 List<String> n2=Arrays.asList(n1);
 
